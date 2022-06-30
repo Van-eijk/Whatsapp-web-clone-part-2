@@ -3,5 +3,9 @@ aside[id="listChat"]{
 }
 
 section[id="viewChat"]{
+    width: 100%;
+}
+
+section[id="rightSide"]{
     width: 70%;
 }
