@@ -1,0 +1,290 @@
+/*body{
+    background-color: red;
+}*/
+
+html{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+
+    /* *********/
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,"Lucida Grande",Arial,"Fira Sans",sans-serif;
+    color: #3b4a54;
+    user-select: none;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "kern";
+    background-color: #eae6df;
+    background-image: linear-gradient(180deg,#eae6df,#d1d7db);
+    line-height: 1;
+    font-size: 100%;
+    vertical-align: initial;
+}
+
+
+div[id="header"]{
+    display: none;
+
+}
+
+
+
+
+div[id="main"]{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    /*border: 2px solid blue;*/
+
+}
+
+aside[id="listChat"]{
+    /*border: 1px solid black;*/
+    position: relative;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    height: 100%;
+    margin-right: 0px;
+    /*width: 30%;*/
+}
+
+section[id="viewChat"]{
+    /*border: 2px solid red;*/
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: 100;
+    height: 100%;
+    padding: 28px 0px;
+    /*background-color: red;*/
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-left: 1px solid #e9edef;
+    /*background-color: red;*/
+
+
+
+    /*width: 30%;*/
+}
+
+
+div[id="home"]{
+    
+    /*background-color: yellow;*/
+    width: 560px;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-bottom: 20px;
+
+
+
+
+}
+
+div[id="illustration"]{
+    
+    /*background-color: blue;*/
+    /*width: 560px;*/
+    /*height: 410px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div[id="instruction"]{
+    width: 560px;
+    height: 204px;
+    /*background-color: black;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*color: white;*/
+}
+
+div[id="instruction"] p{
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #667781;
+    
+}
+
+div[id="title"]{
+    margin-top: 40px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 37.5px;
+    color: #41525d;
+    display: flex;
+    align-items: flex-end;
+    vertical-align: bottom;
+}
+div[id="title"] h1{
+    
+    font-size: 100%;
+    /*vertical-align: initial;*/
+    margin-top: 0px;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 37.5px;
+
+    margin-bottom: 0px;
+}
+
+div[id="new"]{
+    /*background-color: blue;*/
+    height: 38px;
+    /*margin: 27px 0px;*/
+    margin-left: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 100%;
+    vertical-align: initial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+div[id="new"] p{
+
+    padding: 5px 8px;
+    background-color: #e6e6e6;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #667781;
+    line-height: 14px;
+   /* vertical-align: middle;*/
+
+}
+
+div[id="barre"]{
+    width: 560px;
+    height: 1px;
+    margin-bottom: 24px;
+    margin-top: 24px;
+    background-color: #e9edef;
+    /*background-color: yellow;*/
+}
+
+div[id="makeCall"]{
+    display: flex;
+}
+
+div[id="makeCall"] p{
+    margin: 0px 0px;
+    margin-left: 5px;
+    text-align: unset;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667781;
+
+    
+    
+}
+
+
+div[id="makeCall"] p a{
+    text-decoration: none;
+    color: #027eb5;
+}
+
+span[id="iconLaptop"]{
+    width: 21px;
+    height: 18px;
+    margin: 0px 0px;
+    margin-top: 1px;
+}
+span[id="iconLaptop"] svg{
+    color: #8696a0;
+}
+
+div[id="footer"]{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #8696a0;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div[id="footer"] p{
+    margin: 0px 0px;
+    margin-left: 5px;
+    text-align: unset;
+    font-size: 14px;
+
+}
+div[id="footer"] span{
+    margin: 1px 1px;
+    width: 10px;
+    height: 12px;
+    padding-bottom: 5px;
+}
+
+section[id="viewChat"]::after{
+    height: 0px;
+    border-top: 6px solid rgb(37, 211, 102);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    content: "";
+    margin-left: 0px;
+
+}

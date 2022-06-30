@@ -1,0 +1,16 @@
+div[id="header"]{
+    display: block;
+
+}
+
+div[id="header"]::after{
+    content: "";
+    height: 127px;
+    background-color: #00A884;
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+}
