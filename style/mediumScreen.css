@@ -1,3 +1,6 @@
+/*  min-width : 200px */
+
+
 aside[id="listChat"]{
     width: 30%;
 }
@@ -8,4 +11,40 @@ section[id="viewChat"]{
 
 section[id="rightSide"]{
     width: 70%;
+}
+
+@media screen and (max-width:900px) {
+
+    section[id="rightSide"]{
+        width: 55%;
+    }
+
+    aside[id="listChat"]{
+        width: 45%;
+    }
+    
+}
+
+@media screen and (min-width:901px) and (max-width:1024px) {
+
+    section[id="rightSide"]{
+        width: 60%;
+    }
+
+    aside[id="listChat"]{
+        width: 40%;
+    }
+    
+}
+
+@media screen and (min-width:1025px) and (max-width:1300px) {
+
+    section[id="rightSide"]{
+        width: 65%;
+    }
+
+    aside[id="listChat"]{
+        width: 35%;
+    }
+    
 }

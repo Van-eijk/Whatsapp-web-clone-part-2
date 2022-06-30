@@ -1,3 +1,7 @@
+/*  min-width : 1441px */
+
+
+
 div[id="header"]{
     display: block;
 
@@ -12,5 +16,28 @@ div[id="header"]::after{
     left: 0;
     right: 0;
     z-index: -1;
+
+}
+
+
+div[id="main"]{
+    position: relative;
+    top: 19px;
+    left: 0;
+    display: flex;
+    
+    z-index: 200;
+    /*border: 2px solid blue;*/
+    background-position: 0 0;
+    background-color: #f7f8fa;
+    background-repeat: repeat-x;
+    border-radius: 0;
+    transform-origin: center;
+    margin: 0 auto;
+    box-shadow: 0 6px 18px rgba(11, 20, 26, .05);
+    width: calc(100% - 38px);
+    max-width: 1600px;
+    height: calc(100% - 38px);
+
 
 }
