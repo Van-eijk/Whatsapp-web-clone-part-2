@@ -149,9 +149,6 @@ div[id="home"]{
 
     /*padding-bottom: 20px;*/
 
-
-
-
 }
 
 div[id="illustration"]{
@@ -263,10 +260,7 @@ div[id="makeCall"] p{
     text-align: unset;
     font-size: 14px;
     line-height: 20px;
-    color: #667781;
-
-    
-    
+    color: #667781;  
 }
 
 
@@ -386,4 +380,77 @@ div[id="icons"] svg{
     margin: 8px 8px;
     height: 24px;
     width: 24px;
+}
+
+#notifications{
+    height: 0px;
+    background-color: blue;
+}
+
+#searchContainer{
+    position: relative;
+    z-index: 100;
+    box-sizing: border-box;
+    height: 49px;
+    /*background-color: red; */
+    padding: 0 12px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    color: #8696a0;
+
+}
+
+#searchAndBack {
+    position: absolute;
+    left: 28px;
+    top: 13px;
+    z-index: 100;
+    width: 24px;
+    height: 24px;
+    outline: none;
+    padding: 0px 0px;
+    cursor: pointer;
+    border: none;
+    color: #8696a0;
+
+}
+
+#search{
+    height: 35px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    /*background-color: yellowgreen;*/
+    background-color: #f0f2f5;
+    padding-right: 32px;
+    padding-left: 65px;
+    width: 100%;
+}
+
+
+#iconSearch{
+    display: block;
+}
+
+#iconBack{
+    display: none;
+}
+
+#cross{
+
+    position: absolute;
+    left: 360px;
+    top: 13px;
+    z-index: 100;
+    width: 24px;
+    height: 24px;
+    outline: none;
+    padding: 0px 0px;
+    cursor: pointer;
+    border: none;
+    color: #8696a0;
+    display: none;
+
 }
