@@ -399,6 +399,7 @@ div[id="icons"] svg{
     align-items: center;
     color: #8696a0;
 
+
 }
 
 #searchAndBack {
@@ -453,4 +454,117 @@ div[id="icons"] svg{
     color: #8696a0;
     display: none;
 
+}
+
+.itemChat{
+    height: 72px;
+    /*background-color: red;*/
+    background-color: #fff;
+    position: relative;
+    display: flex;
+
+}
+
+.itemChat:hover{
+    background-color: #f0f2f5;
+}
+
+.iconItem{
+    width: 77px;
+    height: 72px;
+    box-sizing: border-box;
+    margin: -1px 0px 0px 0px;
+    padding: 0px 15px 0px 13px;
+    /*background-color: blue;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iconItem span{
+    width: 49px;
+    height: 49px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    position: relative;
+    border-radius: 50%;
+    
+}
+
+.userInfo{
+    height: 72px;
+    margin: 0px 0px;
+    padding-left: 0px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /*background-color: yellow;*/
+    box-sizing: border-box;
+    width: 100%;
+    border-top: 1px solid #e9edef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*flex-grow: 1;*/
+
+}
+
+.nameHour{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    /*background-color: green;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: normal;
+    text-align: left;
+}
+
+.nameHour p{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.Username{
+    font-size: 17px;
+    font-weight: 400;
+    color: #111b21;
+}
+
+.Hour{
+    margin-top: 3px;
+    margin-left: 6px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #667781;
+
+}
+.lastText{
+    /*background-color: red;*/
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px 0px;
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #667781;
+    vertical-align: initial;
+}
+
+.lastText span{
+    padding-top: 5px ;
+    margin: 0px 0px;
+}
+
+.lastText p{
+    padding: 0px 0px ;
+    margin: 0px 0px;
+}
+
+.lastText svg{
+    color: violet;
 }
