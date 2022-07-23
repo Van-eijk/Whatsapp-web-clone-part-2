@@ -467,6 +467,7 @@ div[id="icons"] svg{
 
 .itemChat:hover{
     background-color: #f0f2f5;
+    
 }
 
 .iconItem{
@@ -482,8 +483,8 @@ div[id="icons"] svg{
 }
 
 .iconItem span{
-    width: 49px;
-    height: 49px;
+    width: 51px;
+    height: 51px;
     margin: 0px 0px;
     padding: 0px 0px;
     position: relative;
@@ -552,11 +553,54 @@ div[id="icons"] svg{
     font-size: 13px;
     line-height: 20px;
     color: #667781;
-    vertical-align: initial;
+    justify-content: space-between;
 }
 
+.left{
+    display: flex;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.right{
+    display: flex;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    align-items: center;
+}
+
+.number{
+    height: 21px;
+    width: 21px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.menuItem{
+    width: 19px;
+    /*height: 37px;*/
+    height: 21px;
+    font-size: 18px;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 6px;
+    color: #667781;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 .lastText span{
-    padding-top: 5px ;
+    /*padding-top: 5px ;*/
     margin: 0px 0px;
 }
 

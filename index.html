@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="icon/css/all.css">
     <link rel="stylesheet" href="style/mainStyle.css">
     <link rel="stylesheet" media="all and (min-width:1441px)" href="style/bigScreen.css">
     <link rel="stylesheet" media="all and (min-width:200px)" href="style/mediumScreen.css">
@@ -64,27 +65,367 @@
                
             </div>
 
-            <div class="itemChat">
-                <div class="iconItem">
-                    <span> <img src="picture/iconDefault2.png" alt=""></span>
+            <!-- ******************************   chat 1   ************************************-->
 
+            <div class="itemChat" id="chat1" onmouseover="displayMenuItem1()" onmouseout="hideMenuItem1()" onclick="openChat()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
                 </div>
                 <div class="userInfo">
                     <div class="nameHour">
                         <P class="Username">Username</P>
                         <p class="Hour">00:00 am</p>
-
                     </div>
                     <div class="lastText">
-                        <span>
-                            <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
-                        </span>
-                        <p>See you soon</p>
-
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number" id="number1">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem1" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
             </div>
+
+            
+            <!-- ******************************   chat 2   ************************************-->
+
+            <div class="itemChat" id="chat2" onmouseover="displayMenuItem2()" onmouseout="hideMenuItem2()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">10:55 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>2</p>
+                            </div>
+                            <div class="menuItem" id="menuItem2" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 3   ************************************-->
+
+            <div class="itemChat" id="chat3" onmouseover="displayMenuItem3()" onmouseout="hideMenuItem3()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">10:00 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number" id="number3">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem3" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 4   ************************************-->
+
+            <div class="itemChat" id="chat4" onmouseover="displayMenuItem4()" onmouseout="hideMenuItem4()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">00:00 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem4" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 5   ************************************-->
+
+            <div class="itemChat" id="chat5" onmouseover="displayMenuItem5()" onmouseout="hideMenuItem5()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">00:00 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>4</p>
+                            </div>
+                            <div class="menuItem" id="menuItem5" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 6   ************************************-->
+
+            <div class="itemChat" id="chat6" onmouseover="displayMenuItem6()" onmouseout="hideMenuItem6()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">12:00 pm</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem6" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 7   ************************************-->
+
+            <div class="itemChat" id="chat7" onmouseover="displayMenuItem7()" onmouseout="hideMenuItem7()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">11:55 pm</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem7" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 8   ************************************-->
+
+            <div class="itemChat" id="chat8" onmouseover="displayMenuItem8()" onmouseout="hideMenuItem8()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">00:00 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem8" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 9   ************************************-->
+
+            <div class="itemChat" id="chat9" onmouseover="displayMenuItem9()" onmouseout="hideMenuItem9()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">00:00 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem9" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 10   ************************************-->
+
+            <div class="itemChat" id="chat10" onmouseover="displayMenuItem10()" onmouseout="hideMenuItem10()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">00:00 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem10" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 11   ************************************-->
+
+            <div class="itemChat" id="chat11" onmouseover="displayMenuItem11()" onmouseout="hideMenuItem11()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">00:00 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem11" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ******************************   chat 12   ************************************-->
+
+            <div class="itemChat" id="chat12" onmouseover="displayMenuItem12()" onmouseout="hideMenuItem12()">
+                <div class="iconItem">
+                    <span> <img src="picture/iconDefault3.png" alt=""></span>
+                </div>
+                <div class="userInfo">
+                    <div class="nameHour">
+                        <P class="Username">Username</P>
+                        <p class="Hour">00:00 am</p>
+                    </div>
+                    <div class="lastText">
+                        <div class="left">
+                            <span>
+                                <svg viewBox="0 0 18 18" width="18" height="18" class=""><path fill="currentColor" d="m17.394 5.035-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-.427-.388a.381.381 0 0 0-.578.038l-.451.576a.497.497 0 0 0 .043.645l1.575 1.51a.38.38 0 0 0 .577-.039l7.483-9.602a.436.436 0 0 0-.076-.609zm-4.892 0-.57-.444a.434.434 0 0 0-.609.076l-6.39 8.198a.38.38 0 0 1-.577.039l-2.614-2.556a.435.435 0 0 0-.614.007l-.505.516a.435.435 0 0 0 .007.614l3.887 3.8a.38.38 0 0 0 .577-.039l7.483-9.602a.435.435 0 0 0-.075-.609z"></path></svg>
+                            </span>
+                            <p>See you soon</p>
+                        </div>
+                        <div class="right">
+                            <div class="number">
+                                <p>1</p>
+                            </div>
+                            <div class="menuItem" id="menuItem12" >
+                                <i class="fa-solid fa-angle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
 
         </aside>
 
@@ -143,6 +484,9 @@
 
 
     <script type="text/javascript" src="javascript/search.js"></script>
+    <script src="javascript/itemChat.js"></script>
+
+
     
 </body>
 </html>
