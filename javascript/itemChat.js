@@ -4,6 +4,11 @@ function openChat(){
     document.getElementById("viewChat").style.display = "none";
 }
 
+// modification du premier element des chats
+
+ let userInfo = document.getElementsByClassName("userInfo");
+ userInfo[0].style.borderTop = "none";
+
 
 
 
