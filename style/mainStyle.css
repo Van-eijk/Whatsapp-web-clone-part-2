@@ -153,6 +153,7 @@ section[id="viewChat"]{
     padding: 28px 0px;
     /*background-color: red;*/
     box-sizing: border-box;
+    /*display: flex;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,10 +161,118 @@ section[id="viewChat"]{
     background-color: #f8f8f8;
     border-left: 1px solid #e9edef;
     /*background-color: red;*/
-
-
-
     /*width: 30%;*/
+}
+
+#mainChat{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    /*border: 2px solid red;*/
+    /*position: relative;
+    right: 0;
+    top: 0;
+    z-index: 100;*/
+    height: 100%;
+   
+    /*background-color: red;*/
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    background-color: #efeae2;
+    /*border-left: 1px solid #e9edef;*/
+    /*background-color: red;*/
+    width: 100%;
+}
+
+#headerChat{
+    border-left: 1px solid #d1d7db;
+    /*border: 2px solid blue;*/
+    padding: 10px 16px;
+    background-color: #f0f2f5;
+    position: relative;
+    z-index: 1000;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 59px;
+}
+
+#leftHeaderChat{
+    /*background-color: white;*/
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+}
+
+#iconMainChat{
+    width: 40px;
+    height: 40px;
+    margin: -1px 0px 0px 0px;
+    padding: 0px 15px 0px 0px;
+    /*background-color: red;*/
+}
+
+#iconMainChat img{
+    width: 41px;
+    height: 41px;
+}
+
+
+#nameMainChat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    /*background-color: yellow;*/
+}
+
+#nameMainChat p{
+    margin: 3px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+#online{
+    font-size: 12px;
+    color: #667781;
+}
+
+#rightHeaderChat{
+    /*background-color: white;*/
+    color: #54656f;
+    display: flex;
+    align-items: center;
+}
+
+#searchHeaderChat{
+    box-sizing: border-box;
+    /*background-color: white;*/
+    height: 40px;
+    width: 40px;
+    padding: 8px 8px;
+    font-size: larger;
+}
+
+#searchHeaderChat span{
+    display: flex;
+    align-items: center;
+    font-size: 90px;
+    flex: 1;
+}
+
+#menuHeaderChat{
+    box-sizing: border-box;
+    /*background-color: white;*/
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#menuHeaderChat span{
+    display: flex;
+    align-items: center;
 }
 
 

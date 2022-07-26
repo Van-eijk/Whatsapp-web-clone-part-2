@@ -100,7 +100,7 @@
                 
                 <!-- ******************************   chat 2   ************************************-->
 
-                <div class="itemChat" id="chat2" onmouseover="displayMenuItem2()" onmouseout="hideMenuItem2()">
+                <div class="itemChat" id="chat2" onmouseover="displayMenuItem2()" onmouseout="hideMenuItem2()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -130,7 +130,7 @@
 
                 <!-- ******************************   chat 3   ************************************-->
 
-                <div class="itemChat" id="chat3" onmouseover="displayMenuItem3()" onmouseout="hideMenuItem3()">
+                <div class="itemChat" id="chat3" onmouseover="displayMenuItem3()" onmouseout="hideMenuItem3()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -160,7 +160,7 @@
 
                 <!-- ******************************   chat 4   ************************************-->
 
-                <div class="itemChat" id="chat4" onmouseover="displayMenuItem4()" onmouseout="hideMenuItem4()">
+                <div class="itemChat" id="chat4" onmouseover="displayMenuItem4()" onmouseout="hideMenuItem4()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -190,7 +190,7 @@
 
                 <!-- ******************************   chat 5   ************************************-->
 
-                <div class="itemChat" id="chat5" onmouseover="displayMenuItem5()" onmouseout="hideMenuItem5()">
+                <div class="itemChat" id="chat5" onmouseover="displayMenuItem5()" onmouseout="hideMenuItem5()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -220,7 +220,7 @@
 
                 <!-- ******************************   chat 6   ************************************-->
 
-                <div class="itemChat" id="chat6" onmouseover="displayMenuItem6()" onmouseout="hideMenuItem6()">
+                <div class="itemChat" id="chat6" onmouseover="displayMenuItem6()" onmouseout="hideMenuItem6()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -250,7 +250,7 @@
 
                 <!-- ******************************   chat 7   ************************************-->
 
-                <div class="itemChat" id="chat7" onmouseover="displayMenuItem7()" onmouseout="hideMenuItem7()">
+                <div class="itemChat" id="chat7" onmouseover="displayMenuItem7()" onmouseout="hideMenuItem7()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -280,7 +280,7 @@
 
                 <!-- ******************************   chat 8   ************************************-->
 
-                <div class="itemChat" id="chat8" onmouseover="displayMenuItem8()" onmouseout="hideMenuItem8()">
+                <div class="itemChat" id="chat8" onmouseover="displayMenuItem8()" onmouseout="hideMenuItem8()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -310,7 +310,7 @@
 
                 <!-- ******************************   chat 9   ************************************-->
 
-                <div class="itemChat" id="chat9" onmouseover="displayMenuItem9()" onmouseout="hideMenuItem9()">
+                <div class="itemChat" id="chat9" onmouseover="displayMenuItem9()" onmouseout="hideMenuItem9()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -340,7 +340,7 @@
 
                 <!-- ******************************   chat 10   ************************************-->
 
-                <div class="itemChat" id="chat10" onmouseover="displayMenuItem10()" onmouseout="hideMenuItem10()">
+                <div class="itemChat" id="chat10" onmouseover="displayMenuItem10()" onmouseout="hideMenuItem10()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -370,7 +370,7 @@
 
                 <!-- ******************************   chat 11   ************************************-->
 
-                <div class="itemChat" id="chat11" onmouseover="displayMenuItem11()" onmouseout="hideMenuItem11()">
+                <div class="itemChat" id="chat11" onmouseover="displayMenuItem11()" onmouseout="hideMenuItem11()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -400,7 +400,7 @@
 
                 <!-- ******************************   chat 12   ************************************-->
 
-                <div class="itemChat" id="chat12" onmouseover="displayMenuItem12()" onmouseout="hideMenuItem12()">
+                <div class="itemChat" id="chat12" onmouseover="displayMenuItem12()" onmouseout="hideMenuItem12()" onclick="openChat()">
                     <div class="iconItem">
                         <span> <img src="picture/iconDefault3.png" alt=""></span>
                     </div>
@@ -477,6 +477,38 @@
                     <p>End-to-end encrypted</p>
                 </div>
     
+            </section>
+
+            <section id="mainChat">
+                <div id="headerChat">
+                    <div id="leftHeaderChat">
+                        <div id="iconMainChat">
+                            <span> <img src="picture/iconDefault3.png" alt=""></span>
+
+                        </div>
+                        <div id="nameMainChat">
+                            <p>Username</p>
+                            <p id="online"></p>
+                        </div>
+                    </div>
+                    <div id="rightHeaderChat">
+                        <div id="searchHeaderChat">
+                            <span>
+                                <svg viewBox="0 0 24 24" width="24" height="24" class=""><path fill="currentColor" d="M15.009 13.805h-.636l-.22-.219a5.184 5.184 0 0 0 1.256-3.386 5.207 5.207 0 1 0-5.207 5.208 5.183 5.183 0 0 0 3.385-1.255l.221.22v.635l4.004 3.999 1.194-1.195-3.997-4.007zm-4.808 0a3.605 3.605 0 1 1 0-7.21 3.605 3.605 0 0 1 0 7.21z"></path></svg>
+                            </span>
+
+                        </div>
+                        <div id="menuHeaderChat">
+                            
+                            <span><svg viewBox="0 0 24 24" width="24" height="24" class=""><path fill="currentColor" d="M12 7a2 2 0 1 0-.001-4.001A2 2 0 0 0 12 7zm0 2a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 9zm0 6a2 2 0 1 0-.001 3.999A2 2 0 0 0 12 15z"></path></svg></span>
+                            
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </section>
 
         </section>

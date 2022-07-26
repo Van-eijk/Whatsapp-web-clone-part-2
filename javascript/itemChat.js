@@ -2,6 +2,13 @@
 
 function openChat(){
     document.getElementById("viewChat").style.display = "none";
+    document.getElementById("mainChat").style.display = "flex";
+
+    let online = document.getElementById("online")
+
+    setTimeout(function(){
+        online.innerHTML = "Last seen yesterday at 08:30 am";
+    }, 2000)
 }
 
 // modification du premier element des chats
