@@ -1,14 +1,11 @@
-// function to open an a chat
 
-function openChat(){
-    document.getElementById("viewChat").style.display = "none";
-    document.getElementById("mainChat").style.display = "flex";
 
-    let online = document.getElementById("online")
 
-    setTimeout(function(){
-        online.innerHTML = "Last seen yesterday at 08:30 am";
-    }, 2000)
+// function to send a message
+
+function sendMessage(){
+    document.getElementById("sendMessage").innerHTML="";
+    document.getElementById("sendMessage").style.color="#3B4A54";
 }
 
 // modification du premier element des chats
@@ -25,148 +22,17 @@ function openChat(){
 document.getElementById("number1").style.display = "none";
 document.getElementById("number3").style.display = "none";
 
-function displayMenuItem1(){
-    
-    document.getElementById("menuItem1").style.display = "flex"; 
-}
 
-function hideMenuItem1(){
-    
-    document.getElementById("menuItem1").style.display = "none";
-}
+// modification du chat numero 7
 
-//
+setTimeout(()=>{
+    document.getElementById("view7").style.display="none";
+    document.getElementById("message7").innerHTML="Writing...";
+    document.getElementById("message7").style.color="#25d366";
+    document.getElementById("message7").style.fontWeight="bold";
 
+},3000)
 
-function displayMenuItem2(){
-    
-    document.getElementById("menuItem2").style.display = "flex"; 
-}
-
-function hideMenuItem2(){
-    
-    document.getElementById("menuItem2").style.display = "none";
-}
-
-//
-
-function displayMenuItem3(){
-    
-    document.getElementById("menuItem3").style.display = "flex"; 
-}
-
-function hideMenuItem3(){
-    
-    document.getElementById("menuItem3").style.display = "none";
-}
-
-//
-
-function displayMenuItem4(){
-    
-    document.getElementById("menuItem4").style.display = "flex"; 
-}
-
-function hideMenuItem4(){
-    
-    document.getElementById("menuItem4").style.display = "none";
-}
-
-//
-
-function displayMenuItem5(){
-    
-    document.getElementById("menuItem5").style.display = "flex"; 
-}
-
-function hideMenuItem5(){
-    
-    document.getElementById("menuItem5").style.display = "none";
-}
-
-//
-
-function displayMenuItem6(){
-    
-    document.getElementById("menuItem6").style.display = "flex"; 
-}
-
-function hideMenuItem6(){
-    
-    document.getElementById("menuItem6").style.display = "none";
-}
-
-//
-
-function displayMenuItem7(){
-    
-    document.getElementById("menuItem7").style.display = "flex"; 
-}
-
-function hideMenuItem7(){
-    
-    document.getElementById("menuItem7").style.display = "none";
-}
-
-//
-
-function displayMenuItem8(){
-    
-    document.getElementById("menuItem8").style.display = "flex"; 
-}
-
-function hideMenuItem8(){
-    
-    document.getElementById("menuItem8").style.display = "none";
-}
-
-//
-
-function displayMenuItem9(){
-    
-    document.getElementById("menuItem9").style.display = "flex"; 
-}
-
-function hideMenuItem9(){
-    
-    document.getElementById("menuItem9").style.display = "none";
-}
-
-//
-
-function displayMenuItem10(){
-    
-    document.getElementById("menuItem10").style.display = "flex"; 
-}
-
-function hideMenuItem10(){
-    
-    document.getElementById("menuItem10").style.display = "none";
-}
-
-//
-
-function displayMenuItem11(){
-    
-    document.getElementById("menuItem11").style.display = "flex"; 
-}
-
-function hideMenuItem11(){
-    
-    document.getElementById("menuItem11").style.display = "none";
-}
-
-//
-
-function displayMenuItem12(){
-    
-    document.getElementById("menuItem12").style.display = "flex"; 
-}
-
-function hideMenuItem12(){
-    
-    document.getElementById("menuItem12").style.display = "none";
-}
 
 
 
