@@ -280,33 +280,55 @@ section[id="viewChat"]{
     flex-direction: column;
     /*background-color: green;*/
     flex: 1;
-    padding: 0px 10px 0px 10px;
-    overflow: auto;
+    padding: 10px 50px 0px 50px;
+    /* Overflow permet le defilement des elements dans la boite*/
+    overflow: auto; 
     white-space: wrap;
     text-overflow: ellipsis;
     background-image: url(../Picture/background.jpg);
+
+    /*  scroll bar for firefox*/
+
+    scrollbar-width: thin;
+    scrollbar-color: rgba(11,20,26,.2) rgba(255,255,255,.1);
 
 }
 #chatDiscussion p{
     /*white-space: wrap;*/
     text-overflow: ellipsis;
-    font-size: 20px;
+    /*font-size: 20px;*/
+    font-size: 16.2px;
     margin: 0px 0px;
     padding: 0px 0px;
     box-sizing: border-box;
     display: flex;
+    color: #111b21;
 }
 
-#chatDiscussion span {
+.footerMessage {
     text-align: right;
-    font-size: small;
+    font-size: 12px;
     margin: 0px 0px;
     padding: 0px 0px;
     box-sizing: border-box;
     margin-top: 3px;
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    vertical-align: baseline;
+    color: #667781;
 
 }
+
+.footerMessage svg {
+    margin: 0px 0px 0px 4px;
+    padding: 0px 0px 0px 0px;
+    color: #53bdeb;
+
+}
+
+
 
 .send{
     display: flex;
@@ -331,7 +353,7 @@ section[id="viewChat"]{
     overflow-wrap: break-word;
     white-space: pre-wrap ;
     max-width: 350px;
-    padding: 6px 7px 8px 9px;
+    padding: 6px 7px 6px 9px;
     box-sizing: border-box;
 }
 
@@ -358,7 +380,7 @@ section[id="viewChat"]{
     overflow-wrap: break-word;
     white-space: pre-wrap ;
     max-width: 300px;
-    padding: 6px 7px 8px 9px;
+    padding: 6px 7px 3px 9px;
     box-sizing: border-box;
 }
 
@@ -744,6 +766,7 @@ div[id="icons"] svg{
     padding-right: 32px;
     padding-left: 65px;
     width: 100%;
+    outline: none;
 }
 
 
