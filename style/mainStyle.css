@@ -291,20 +291,38 @@ section[id="viewChat"]{
     /*white-space: wrap;*/
     text-overflow: ellipsis;
     font-size: 20px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatDiscussion span {
+    text-align: right;
+    font-size: small;
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    width: 100%;
 
 }
-.receiver{
+
+.send{
     display: flex;
-    justify-content: flex-end;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 0px 0px;
+    padding: 0px 0px;
+
 }
 
 .sender{
     display: flex;
-    justify-content: flex-start;
-}
-
-
-.sender p{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px;
+    margin: 0px 0px 10px 0px;
     text-align: left;
     background-color: #fff;
     border-radius: 7.5px;
@@ -312,25 +330,36 @@ section[id="viewChat"]{
     box-shadow: 0 1px 0.5px rgba(11, 20, 26, .13);
     overflow-wrap: break-word;
     white-space: pre-wrap ;
-    max-width: 200px;
+    max-width: 350px;
     padding: 6px 7px 8px 9px;
-
+    box-sizing: border-box;
 }
 
-.receiver p{
-    text-align: right;
+
+
+.receiv{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.receiver{
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-end;*/
+    padding: 0px 0px;
+    margin: 0px 0px 10px 0px;
     background-color: #d9fdd3;
     border-radius: 7.5px;
     border-top-right-radius: 0px;
-
     box-shadow: 0 1px 0.5px rgba(11, 20, 26, .13);
-
     overflow-wrap: break-word;
     white-space: pre-wrap ;
-    max-width: 200px;
-    
-
+    max-width: 300px;
     padding: 6px 7px 8px 9px;
+    box-sizing: border-box;
 }
 
 #chatDiscussion::-webkit-scrollbar{
@@ -345,8 +374,6 @@ section[id="viewChat"]{
 #chatDiscussion::-webkit-scrollbar-track{
     background: rgba(255,255,255,.1);
 }
-
-
 
 #footerChat{
     display: flex;
